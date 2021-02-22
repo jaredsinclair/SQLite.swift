@@ -97,6 +97,8 @@ public struct Tokenizer {
 
     public static let Porter = Tokenizer("porter")
 
+    public static let Trigram = Tokenizer("trigram")
+
     public static func Unicode61(removeDiacritics: Bool? = nil, tokenchars: Set<Character> = [], separators: Set<Character> = []) -> Tokenizer {
         var arguments = [String]()
 
