@@ -1,0 +1,5 @@
+module SQLite3Library {
+    header "SQLite3Library.h"
+
+    export *
+}
